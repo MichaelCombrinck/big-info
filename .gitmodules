@@ -1,0 +1,3 @@
+[submodule "big-info"]
+	path = big-info
+	url = https://github.com/MichaelCombrinck/big-info.git
