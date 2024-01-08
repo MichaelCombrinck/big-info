@@ -1,0 +1,42 @@
+<!-- register.component.html -->
+<div class="register-container">
+  <mat-card class="register-card">
+    <div class="register-header">
+      <h1>Register</h1>
+    </div>
+    <mat-card-content>
+      <form>
+        <div class="form-row">
+          <mat-form-field>
+            <input matInput placeholder="Name" />
+          </mat-form-field>
+          <mat-form-field class="space-inbetween">
+            <input matInput placeholder="Surname" />
+          </mat-form-field>
+        </div>
+        <div class="form-row">
+          <mat-form-field>
+            <input matInput type="number" placeholder="Age" />
+          </mat-form-field>
+          <mat-form-field class="space-inbetween">
+            <mat-label>Gender</mat-label>
+            <mat-select placeholder="Select">
+              <mat-option value="male">Male</mat-option>
+              <mat-option value="female">Female</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+        <mat-form-field>
+          <input matInput type="password" placeholder="Password" />
+        </mat-form-field>
+        <mat-form-field>
+          <input matInput type="password" placeholder="Reenter Password" />
+        </mat-form-field>
+        <button mat-raised-button class="register-button">Register</button>
+      </form>
+    </mat-card-content>
+    <div class="login-link">
+      <p>Already have an account? <a href="/login">Login here</a></p>
+    </div>
+  </mat-card>
+</div>
