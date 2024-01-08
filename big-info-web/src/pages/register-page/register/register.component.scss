@@ -1,0 +1,62 @@
+/* register.component.css */
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.register-header {
+  background-color: #28a745; 
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.register-header h1 {
+  margin: 16px;
+}
+
+.register-card {
+  width: 420px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+.login-link {
+  margin-top: 20px;
+}
+
+.mat-mdc-raised-button:not(:disabled) {
+  background-color: #28a745;
+  color: white;
+}
+
+
+.space-inbetween {
+  margin-left: 20px
+}
